@@ -9,6 +9,10 @@ ReactDOM.render(
     <h1>
       Hello {fName} {lName}
     </h1>
+    <h1>
+      Hello {`${fName} ${lName}`}
+    </h1>
+    <p>Random number: {Math.floor(Math.random()*10)}</p>
     <p>Your lucky number is {num}</p>
   </div>,
   document.getElementById("root")
